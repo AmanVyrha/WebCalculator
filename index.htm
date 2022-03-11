@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<meta name='viewport' content="width=device-width,initial-scale=1.0">
+        <script src="script.js"></script>
+        <style>
+        .center {
+            margin: auto;
+            width: 50%;
+            border: 3px;
+        }
+        </style>
+    </head>
+    <body style="background-color: rgb(153, 0, 255);">
+        <button onclick="callme()">click me</button>
+        <div id="code" style="display: none;"">
+            <p style="font-size: large;">you are going to cruise</p>
+            <button id="countdown" onclick="count()" style="background-color: blueviolet;" >10</button>
+        <nav></nav>
+        
+        </div>
+        <div style="border: solid 5px; box-sizing: border-box; background-image: url('image.jpg');">
+        <div style="text-align: center; font-style: oblique; font-weight: 900; color: aliceblue; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        <br/> <br/>Enter the 1st Number<br/>
+            <input type="text" id="n1" style="font-size: larger; font-weight: 600 ; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"/><br/><br/>
+            Enter the 2nd Number<br/>
+            <input type="text" id="n2" style="font-size: larger; font-weight: 600 ; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"/><br/><br/>
+            <select id="operator" style="font-size: larger; font-weight: 700;">
+                <option value="+" style="font-size: larger; font-weight: 700;"> +</option>
+                <option value="-" style="font-size: larger; font-weight: 700;"> -</option>
+                <option value="*" style="font-size: larger; font-weight: 700;"> *</option>
+                <option value="/" style="font-size: larger; font-weight: 700;"> /</option>
+            </select><br/><br/>
+            <button id="equal" onclick="cal();" style="font-size: larger; font-weight: 600;" >=</button>
+            <input type="text" id="result" style="font-size: larger; font-weight: 600 ; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"/><br/><br/><br/>
+        </div>  
+    </div>
+    </body>
+</html>
