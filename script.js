@@ -1,17 +1,3 @@
-function callme(){
-    document.getElementById("code").style.display="block";
-}
-
-function count(){
-    var current= document.getElementById("countdown").innerHTML;
-    var newval=current-1;
-    if (current>0){
-        document.getElementById("countdown").innerHTML= newval;
-
-
-    }
-    
-}
 
 function cal(){
     var n1=parseInt(document.getElementById("n1").value);
